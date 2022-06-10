@@ -21,15 +21,15 @@ timezone: Europe/Warsaw
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: KJanas                          # the main title
+title: Smart-Home-Lab                          # the main title
 
-tagline: HomeLab and Dev blog   # it will display as the sub-title
+tagline: About SmartHome and HomeLab...    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://kjanas.github.io'
 
 github:
   username: kjanas             # change to your github username
@@ -40,7 +40,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Kjanas
+  name: KJanas
   # email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -115,8 +115,8 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
 
-pwa:
-  enabled: true   # the option for PWA feature
+# pwa:
+#   enabled: true   # the option for PWA feature
 
 paginate: 10
 
